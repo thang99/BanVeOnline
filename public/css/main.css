@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position:absolute;
+    z-index: 1;
+    list-style: none;
+    background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.list-product-title {
+    width: 100%;
+    text-transform: uppercase;
+}
+.list-product-subtitle {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.film-text a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.film-text a:nth-child(2){
+    margin-left: 30px;
+    opacity: 1;
+}
+.film-text a:nth-child(3){
+    margin-left: 30px;
+    opacity: 1;
+}
+.bottom-text{
+    margin-top: -15px;
+    width: 666px;
+}
+.bottom-text-1{
+    margin-top: -15px;
+    width: 75px;
+}
+
+.btn-xem{
+    display: inline-block;
+    color: #ff523b;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border: 1px solid;
+}
+.btn-xem:hover {
+    color: white;
+    background-color: #ff523b;
+}
+#_right-1 {
+    width: 50%;
+    float: right;
+}
+.text-small {
+    color: #000000f1;
+    font-size: 14.4px;
+}
+.text-small span{
+    color: black;
+    font-weight: bold;
+}
+.text-small span:hover {
+    color: #ff523b;
+}
+.footer {
+    height: 360px;
+    background: #000;
+    color: #dfdbdb;
+    padding: 15px 0 20px;
+}
+.footer h4 {
+    padding-left: 15px;
+}
+.footer small {
+    color: #8a8a8a;
+    font-weight: bolder;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright {
+    text-align: center;
+}
+.copyright-mr {
+    margin-top: 125px;
+}
+@media only screen and (max-width: 1080px) {
+    #_clear {
+        clear: both;
+    }
+    #_right-1 {
+        float: none;
+    }
+    .bottom-text {
+        width: 400px;
+    }
+    .film-text a {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767.5px) {
+    .copyright-mr {
+        margin-top: 0px;
+    }
+    .footer {
+        padding: 0px 0 20px;
+    }
+}
+/*Giave.css*/
+.film-gia a{
+    margin-left: 5px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+input[type="checkbox" i] {
+    background-color: greenyellow;
+}
+#phim2 {
+    display: none;
+}

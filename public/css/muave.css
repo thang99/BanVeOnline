@@ -1,0 +1,55 @@
+.bor-ve{
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+.panel {
+    background-color: #ff523b;
+}
+.panel h4{
+    height: 40px;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+}
+.list-group-film ul{
+    list-style-type: none;
+    padding: 0;
+}
+.list-group-film li{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.film-suat div{
+    margin-bottom: 5px;
+}
+.film-suat a{
+    padding: 0 15px;
+    border: 1px solid rgb(204, 192, 192);
+}
+.img-film {
+    width:25%; float:left; margin: 10px 20px;
+}
+.span-film {
+    float:right; padding: 20px;
+}
+@media only screen and (max-width: 1200px) {
+    .img-film {
+        width:35%; float:left; margin: 10px 20px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .img-film {
+        width:60%; float:left; margin: 10px 20px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .img-film {
+        width:20%; float:left; margin: 10px 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .img-film {
+        width:25%; float:left; margin: 10px 20px;
+    }
+}
